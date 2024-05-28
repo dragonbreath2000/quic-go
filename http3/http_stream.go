@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/dragonbreath2000/quic-go"
+	"github.com/dragonbreath2000/quic-go/internal/protocol"
 
 	"github.com/quic-go/qpack"
 )

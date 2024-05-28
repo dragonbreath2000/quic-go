@@ -9,10 +9,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/logging"
-	"github.com/quic-go/quic-go/qlog"
+	"github.com/dragonbreath2000/quic-go"
+	"github.com/dragonbreath2000/quic-go/internal/utils"
+	"github.com/dragonbreath2000/quic-go/logging"
+	"github.com/dragonbreath2000/quic-go/qlog"
 )
 
 // GetSSLKeyLog creates a file for the TLS key log

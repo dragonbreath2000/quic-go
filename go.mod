@@ -28,4 +28,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/quic-go/quic-go v0.44.0 => github.com/dragonbreath2000/quic-go v0.0.1

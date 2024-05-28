@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/dragonbreath2000/quic-go/internal/utils"
+	"github.com/dragonbreath2000/quic-go/logging"
 )
 
 // DefaultTracer creates a qlog file in the qlog directory specified by the QLOGDIR environment variable.

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/dragonbreath2000/quic-go/internal/protocol"
+	"github.com/dragonbreath2000/quic-go/internal/qerr"
+	"github.com/dragonbreath2000/quic-go/internal/wire"
 )
 
 type cryptoStream interface {

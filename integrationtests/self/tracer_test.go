@@ -9,11 +9,11 @@ import (
 	mrand "math/rand"
 	"net"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/logging"
-	"github.com/quic-go/quic-go/qlog"
+	"github.com/dragonbreath2000/quic-go"
+	"github.com/dragonbreath2000/quic-go/internal/protocol"
+	"github.com/dragonbreath2000/quic-go/internal/utils"
+	"github.com/dragonbreath2000/quic-go/logging"
+	"github.com/dragonbreath2000/quic-go/qlog"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -1,8 +1,8 @@
 package wire
 
 import (
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/dragonbreath2000/quic-go/internal/protocol"
+	"github.com/dragonbreath2000/quic-go/quicvarint"
 )
 
 // A RetireConnectionIDFrame is a RETIRE_CONNECTION_ID frame

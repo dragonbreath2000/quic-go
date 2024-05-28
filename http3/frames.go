@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/dragonbreath2000/quic-go"
+	"github.com/dragonbreath2000/quic-go/quicvarint"
 )
 
 // FrameType is the frame type of a HTTP/3 frame

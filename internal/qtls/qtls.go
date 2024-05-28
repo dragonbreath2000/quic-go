@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/dragonbreath2000/quic-go/internal/protocol"
 )
 
 func SetupConfigForServer(qconf *tls.QUICConfig, _ bool, getData func() []byte, handleSessionTicket func([]byte, bool) bool) {

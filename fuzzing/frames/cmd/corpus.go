@@ -6,10 +6,10 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/fuzzing/internal/helper"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/dragonbreath2000/quic-go"
+	"github.com/dragonbreath2000/quic-go/fuzzing/internal/helper"
+	"github.com/dragonbreath2000/quic-go/internal/protocol"
+	"github.com/dragonbreath2000/quic-go/internal/wire"
 )
 
 const version = protocol.Version1

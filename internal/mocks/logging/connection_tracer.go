@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/mocks/logging/internal"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/dragonbreath2000/quic-go/internal/mocks/logging/internal"
+	"github.com/dragonbreath2000/quic-go/logging"
 
 	"go.uber.org/mock/gomock"
 )
