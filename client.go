@@ -4,6 +4,7 @@ import (
 	"context"
 	"crypto/tls"
 	"errors"
+	"fmt"
 	"net"
 
 	"github.com/quic-go/quic-go/internal/protocol"
@@ -51,9 +52,15 @@ func DialAddr(ctx context.Context, addr string, tlsConf *tls.Config, conf *Confi
 	if err != nil {
 		return nil, err
 	}
+	//teeest
 	udpAddr, err := net.ResolveUDPAddr("udp", addr)
 	if err != nil {
 		return nil, err
+	}
+	id, errr := udpConn.Write([]byte("helloo"))
+	if errr != nil {
+		fmt.Println(string(id))
+		return nil, errr
 	}
 	tr, err := setupTransport(udpConn, tlsConf, true)
 	if err != nil {
